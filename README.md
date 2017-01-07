@@ -1,2 +1,2 @@
 # kmeans-clustering
-k-Means Partitioning Method
+k-Means - Classifier - Partitioning Algorithm
