@@ -5,7 +5,7 @@ def distance_euclid(origin, destiny):
     squared_distance = 0
 
     for i in range(0, len(origin)):
-        squared_distance += math.pow((float(destiny[i]) - float(origin[i])), 2)
+        squared_distance += math.pow((destiny[i] - origin[i]), 2)
 
     distance = math.sqrt(squared_distance)
 

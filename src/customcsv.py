@@ -9,4 +9,9 @@ def parse_to_array(filename):
         for row in reader:
             dataset.append(row)
 
-        return dataset
+    # convert str to float
+    for row in dataset:
+        for position in range(len(row) - 1):
+            row[position] = float(row[position])
+
+    return dataset
